@@ -1,0 +1,34 @@
+.card {
+  background-color: rgba(236, 236, 236, 0.726);
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.card-open {
+  display: flex;
+  width: 15rem;
+  margin-right: 0.2rem;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+ 
+  border-radius: 30px;
+  /* padding: 10px; */
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.card-name {
+  font-size: 14px;
+}

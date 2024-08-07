@@ -1,0 +1,26 @@
+.switch-menu-wrapper {
+ 
+    display: flex;
+    flex-direction: row;
+
+    /* align-items: start; */
+    /* justify-content:last baseline; */
+    padding: 15px;
+    border-bottom: 2px dotted black;
+}
+
+.switch-menu-button {
+    padding: 5px;
+    margin: 5px;
+    line-height: 15px;
+    border: none;
+    background-color: rgba(85, 85, 107, 0.267);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.menu-button-active {
+    background-color: rgb(9, 117, 226);
+    color: white;
+
+}
